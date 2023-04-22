@@ -1,5 +1,375 @@
 {
-  "/api/": "/",
-  "/blog/:resource/:id/show": "/:resource/:id",
-  "/blog/:category": "/posts?category=:category"
+  "foods": [
+    { 
+      "id": "1",
+      "name":  "Milho",
+      "principais_Pragas": "9",
+      "cover": "https://mznews.co.mz/wp-content/uploads/2021/06/mil.jpg",
+      "video":"https://www.youtube.com/watch?v=nukuboSMbMo",
+      "Principais_Pragas": [
+        {
+          "id": "1",
+          "name": "Corós",
+          "text": "Os corós estão presentes nas lavouras de milho e de sorgo, com maior ocorrência nos meses de outubro, novembro e dezembro. As larvas se alimentam do sistema radicular das plantas, o que gera falhas nas linhas de plantio.",
+          "texto": "O principal metodo é o uso de inseticidas, mas  pode se realizar outras técnicas que colaboram para o manejo."
+      
+          
+        },
+        {
+            "id": "2",
+            "name": "Larva-arame",
+            "text": "A larva-arame ataca as sementes após a semeadura e o sistema radicular da planta. Já adianto que essa praga também pode ser encontrada na cultura do sorgo.",
+            "texto":"Seu controle pode ser feito pelo tratamento com inseticidas fosforados sistêmicos, registrados para as culturas. Mas também, pode ser feito através de uma boa drenagem da camada agricultável do solo, pois força a larva a aprofundar-se, reduzindo o dano no sistema radicular."
+        
+          },
+          {
+            "id": "3",
+            "name": "Lagarta-rosca",
+            "text": "As lagartas reduzem o número de plantas por metro linear, uma vez que cortam as plantas rentes ao solo.",
+            "texto":"Para o controle dessa praga é importante fazer o tratamento de sementes com inseticidas sistêmicos."
+          },
+          {
+            "id": "4",
+            "name": "Lagarta-elasmo",
+            "text": "Essa praga causa prejuízos entre os estádios V1 e V8, aproximadamente.",
+            "texto":"Ė fundamental a eliminação antecipada de plantas invasoras, já que as mariposas preferem ovipositar em plantas ou restos culturais ainda verdes."  
+          },
+          {
+            "id": "5",
+            "name": "Larva alfinete",
+            "text": "Esse inseto ataca o sistema radicular, o que deixa a planta mais suscetível ao acamamento, o que provoca o sintoma conhecido por “pescoço de ganso”.",
+            "texto":" Eliminação de restos culturais; uso de inseticidas granulados ou em pulverização no sulco de plantio."
+          },
+          {
+            "id": "6",
+            "name": "Lagarta-do-cartucho",
+            "text": "A lagarta-do-cartucho penetra no colmo, criando galerias, o que provoca um sintoma conhecido por “coração morto”, que ocorre por causo do dano no ponto de crescimento da planta.",
+          
+            "texto":"A principal forma de controle da lagarta-do-cartucho é através da aplicação de inseticidas."
+          },
+          {
+            "id": "7",
+            "name": "Broca-da-cana",
+            "text": "A broca-da-cana (Diatraea saccharalis) está presente na cultura do milho e sorgo, atacando desde V6 até o final do ciclo.",
+            "texto":"Segundo a Embrapa, o controle pode ser feito do mesmo modo como é feito em cana-de-açúcar, através da liberação do parasitoide de ovos Trichogramma spp. ou através do parasitóide de larva, a vespa Cotesia flavipes."
+          },
+          {
+            "id": "8",
+            "name": "Percevejos",
+            "text": "Os percevejos no milho podem atacar de forma severa no início da cultura. No entanto, esses insetos também se alimentam dos grãos em enchimento.",
+            "texto":"As principais medidas para o manejo são o tratamento de sementes e o monitoramento da área."
+          },
+          {
+            "id": "9",
+            "name": "Helicoverpa armigera",
+            "text": "Essa praga causou grande preocupação entre os produtores de soja, milho e algodão.",
+            "texto":"Seu principal controle é através do manejo integrado de pragas, utilizando cultivares geneticamente modificadas que expressam a toxina Bt, inseticidas biológicos e químicos, que sejam seletivos aos inimigos naturais."
+          }
+  
+        
+       
+      ],
+      "Sementes": [
+        {
+          "id": "1",
+          "text": "O tratamento de sementes de milho é um meio de prevenção contra pragas e doenças. Trata-se de uma forma de proteger a lavoura de milho antes, durante e após a germinação, o que favorece o desenvolvimento de plantas vigorosas e aumenta a produtividade do milharal"
+        },
+        {
+          "id": "2",
+          "text":"A Embalagem cabe ao produtor a obrigação de acondicionar as sementes em embalagens apropriadas. Normalmente, são utilizados sacos de papel multifolhados, e devidamente rotulados. Essa embalagem cumpre a função não só de facilitar o manuseio e o transporte das sementes, mas, também, de manter a qualidade delas."
+        },
+        {
+          "id": "3",
+          "text": "Geralmente as sementes de milho são tratadas quimicamente com inseticidas e fungicidas. Entretanto, de acordo com a finalidade do produtor de milho, outros produtos são utilizados, como inoculantes, reguladores de crescimento, micronutrientes e corantes. O tratamento das sementes pode ser realizado, na indústria ou em Casa, com procedimentos adequados para melhores resultados."
+        },
+        {
+          "id": "4",
+          "text": "O armazenamento tem por finalidade guardar as sementes até a época da semeadura, e manter a sua qualidade. O local escolhido deverá ser apropriado, isto é: seguro, seco, com possibilidades de aeração e com condições para um fácil combate a roedores, a insetos e a microrganismos. Entre os vários fatores que influem na manutenção da qualidade da semente durante o armazenamento, a umidade e a temperatura assumem uma grande importância. O poder germinativo e o vigor das sementes somente serão preservados em locais onde a umidade e a temperatura se mantêm baixas.."
+        }
+      ]
+    },
+    { 
+      "id": "2",
+      "name": "Arroz",
+      "principais_Pragas": "5",
+      "time": 60,
+      "cover":"https://www.diarioeconomico.co.mz/wp-content/uploads/2020/06/arroz_Easy-Resize.com_-1536x1152.jpg",
+      "video":"https://www.youtube.com/shorts/udryB2sloWc",
+      "Principais_Pragas": [
+        {
+          "id": "1",
+          "name":"Lagarta da panícula",
+          "text":"Essa praga ataca as folhas nos estádios iniciais do arroz e, com o passar do tempo, as panículas da cultura.",
+          "texto": "O principal manejo é com inseticidas"
+        },
+        {
+          "id": "2",
+          "name": "Percevejo do colmo",
+          "text": "O ataque do percevejo ocorre logo após a emergência, quando a praga se alimenta da seiva proveniente do colmo, ocasionando pontuações marrons na planta e podendo evoluir para o sintoma de coração morto. ",
+          "texto":"Seu principal controle é através do manejo integrado de pragas, utilizando cultivares geneticamente modificadas que expressam a toxina Bt, inseticidas biológicos e químicos, que sejam seletivos aos inimigos naturais. "
+        },
+        {
+          "id": "3",
+          "name": "Lagarta-da-folha",
+          "text": "A lagarta-da-folha possui três fases de vida: larva, lagarta e mariposa, apresentando coloração marrom-acinzentada. Em todos os estágios essa praga é prejudicial à cultura, causando danos desde o estabelecimento do estande adequado até na diminuição da área foliar.",
+          "texto":"O principal manejo é com inseticidas"
+        },
+        {
+          "id": "4",
+          "name": "Percevejo-do-grão",
+          "text": "Os percevejos causam danos em diversas culturas, no arroz não é diferente.  percevejo-do-grão causa o chochamento e gessamento dos grãos, os deixando extremamente frágeis, o que é prejudicial no beneficiamento. ",
+            "texto":"O fundamental é realizar a amostragem com frequência porque tanto as ninfas quanto os adultos se deslocam com facilidade. "
+        },
+        {
+          "id": "5",
+          "name": "Pulgão-da-raiz",
+          "text": "Essa praga apresenta uma coloração escura, por isso talvez tenha dificuldade de encontrá-lo, pois pode até se confundir com o solo.",
+          "texto":"Contudo, antes de pensar em qualquer medida de controle realize o monitoramento da área para te auxiliar na tomada de decisão. "
+        }
+      ],
+      "Sementes": [
+        {
+          "id": "1",
+          "text": "Aliado ao uso de sementes certificadas, outro atributo que contribui para mais produtividade na cultura do arroz é o uso de tratamento de sementes com fungicidas e inseticidas, principalmente."
+        },
+        {
+          "id": "2",
+          "text": "Embalagem cabe ao produtor a obrigação de acondicionar as sementes em embalagens apropriadas. Normalmente, são utilizados sacos de papel multifolhados, e devidamente rotulados. Essa embalagem cumpre a função não só de facilitar o manuseio e o transporte das sementes, mas, também, de manter a qualidade delas."
+        },
+        {
+          "id": "3",
+          "text": "O armazenamento tem por finalidade guardar as sementes até a época da semeadura, e manter a sua qualidade. O local escolhido deverá ser apropriado, isto é: seguro, seco, com possibilidades de aeração e com condições para um fácil combate a roedores, a insetos e a microrganismos. Entre os vários fatores que influem na manutenção da qualidade da semente durante o armazenamento, a umidade e a temperatura assumem uma grande importância. O poder germinativo e o vigor das sementes somente serão preservados em locais onde a umidade e a temperatura se mantêm baixas.."
+        }
+      ]
+    },
+    { 
+      "id": "3",
+      "name":  "Mapira",
+      "principais_Pragas": "6",
+      "time": 120,
+      "cover": "https://st3.depositphotos.com/2146559/17885/i/1600/depositphotos_178851730-stock-photo-jowar-grain-sorghum-crop-farm.jpg",
+      "video":"https://www.youtube.com/watch?v=KDfqnLYlfAs",
+      "Principais_Pragas": [
+        {
+          "id": "1",
+          "name":"Larva-arame",
+          "text": "Os danos causados a Mapira pela larva-arame são devidos, principalmente, à destruição das sementes e, em menor escala, ao ataque no sistema radicular na fase de plântula. O estabelecimento da população ideal e o vigor das plantas são reduzidos, causando perdas significativas na produção.",
+          "texto":"O controle dessa praga pode ser feito através do tratamento das sementes com inseticidas, ou através da aplicação de inseticidas granulados, aplicados no sulco de plantio. Métodos culturais, como rotação de culturas, são eficientes para diminuir a população de larvas no solo."
+        },
+        {
+          "id": "2",
+          "name": "Corós",
+          "text": "Os corós estão presentes nas lavouras de milho e de sorgo, com maior ocorrência nos meses de outubro, novembro e dezembro. As larvas se alimentam do sistema radicular das plantas, o que gera falhas nas linhas de plantio.",
+          "texto":"O principal metodo é o uso de inseticidas, mas  pode se realizar outras técnicas que colaboram para o manejo."
+        },
+        {
+          "id": "3",
+          "name": "Lagarta-elasmo",
+          "text": "É uma praga esporádica com grande capacidade de destruição num intervalo curto de tempo. Seus danos estão associados à estiagem logo após a emergência das plantas, o que aumenta o período de susceptibilidade pelo atraso no desenvolvimento da planta e favorece a explosão populacional de lagartas na lavoura. Maiores danos são observados em solos leves e bem drenados, sendo sua incidência menor em sistemas de plantio direto.",
+          "texto":"Em áreas de risco, deve ser usado o tratamento de sementes com inseticidas sistêmicos à base de tiodicarb, carbofuran ou imidacloprid. Em condições de estresse hídrico, a eficiência do tratamento de sementes é reduzida. Nestes casos recomendando-se a aplicação de inseticidas com ação de contato e profundidade como, por exemplo, o clorpirifós"
+        },
+        {
+          "id": "4",
+          "name": "Broca-da-cana-de-açúcar",
+          "text": "Os prejuízos são causados principalmente pelo quebramento das plantas o que pode ser agravado por ventos fortes e plantios muito adensados. Na região Centro-Oeste, as brocas-do-colmo têm sido problema sério em culturas anuais como milho, sorgo e arroz. Quando a infestação é na região do pedúnculo, pode provocar a morte da panícula com perda total das plantas atacadas.",
+          "texto":"O tratamento de sementes (Tabela 1) pode proteger as plantas do ataque da broca-da-cana no início de desenvolvimento, porém em estádios mais desenvolvidos o controle via pulverização, mesmo com inseticidas apresentando bom efeito de profundidade, tem apresentado resultados limitados. Medidas culturais como destruição dos restos culturais após a colheita reduzem significativamente a infestação nos próximos plantios."
+        },
+        {
+          "id": "5",
+          "name": "Pulgão-verde",
+          "text": "Esta praga infesta a Mapira desde a emergência das plantas até a maturação dos grãos. Tanto os adultos como as ninfas sugam seiva das folhas e introduzem toxinas que provocam bronzeamento e morte da área afetada que, dependendo da infestação, podem causar a morte de toda a planta. Os adultos, principalmente as formas aladas, são também importantes vetores de vírus como o do mosaico da cana-de-açúcar capaz de causar danos significativos a Mapira.",
+          "texto":""
+        },
+        {
+          "id": "6",
+          "name": "Lagarta militar",
+          "text": "Os prejuízos são devido à redução da área foliar das plantas e são maiores se a cultura for com o objetivo de produzir silagem. Em anos e/ou locais críticos os insetos podem consumir todo o limbo foliar com perdas totais.",
+          "texto":" Como são lagartas que se alimentam nas folhas abertas, ficam portanto mais expostas do que a lagarta-do-cartucho, tornando-se mais vulneráveis, tanto ao controle natural como às ações artificiais de controle. Além dos lagarticidas normalmente utilizados, esta espécie pode também ser controlada com os produtos a base de Bacillus thuringiensis. Pragas na panícula do sorgo"
+        }
+      ],
+      "Sementes": [
+        {
+          "id": "1",
+          "text": "O teor de água em que a semente é colhida, bem como a temperatura utilizada para a secagem, é fundamental para garantir a qualidade fisiológica das sementes, principalmente as de mapira, que podem apresentar dormência secundária, por secagem em altas temperaturas. Com a realização deste trabalho, objetivou-se avaliar a qualidade fisiológica das sementes de mapira, com alto e baixo teor de tanino e armazenadas após secagem, utilizando diferentes temperaturas."
+        },
+        {
+          "id": "2",
+          "text": "Embalagem cabe ao produtor a obrigação de acondicionar as sementes em embalagens apropriadas. Normalmente, são utilizados sacos de papel multifolhados, e devidamente rotulados. Essa embalagem cumpre a função não só de facilitar o manuseio e o transporte das sementes, mas, também, de manter a qualidade delas."
+        },
+        {
+          "id": "3",
+          "text": "O armazenamento tem por finalidade guardar as sementes até a época da semeadura, e manter a sua qualidade. O local escolhido deverá ser apropriado, isto é: seguro, seco, com possibilidades de aeração e com condições para um fácil combate a roedores, a insetos e a microrganismos. Entre os vários fatores que influem na manutenção da qualidade da semente durante o armazenamento, a umidade e a temperatura assumem uma grande importância. O poder germinativo e o vigor das sementes somente serão preservados em locais onde a umidade e a temperatura se mantêm baixas."
+        }
+      ]
+    },
+    { 
+      "id": "4",
+      "name":  "Mexoeira",
+      "principais_Pragas": "6",
+      "time": 30,
+      "cover": "https://hortas.info/sites/default/files/field/imagens/milheto-perola/milhetop003.jpg",
+      "video":"https://www.youtube.com/watch?v=FTyEBmzW_64",
+      "Principais_Pragas": [
+        {
+          "id": "1",
+          "name":"Larva-arame",
+          "text": "Os danos causados ao sorgo pela larva-arame são devidos, principalmente, à destruição das sementes e, em menor escala, ao ataque no sistema radicular na fase de plântula. O estabelecimento da população ideal e o vigor das plantas são reduzidos, causando perdas significativas na produção.",
+          "texto":"O controle dessa praga pode ser feito através do tratamento das sementes com inseticidas, ou através da aplicação de inseticidas granulados, aplicados no sulco de plantio. Métodos culturais, como rotação de culturas, são eficientes para diminuir a população de larvas no solo."
+        },
+        {
+          "id": "2",
+          "name": "Corós",
+          "text":"Os corós estão presentes nas lavouras de milho e de sorgo, com maior ocorrência nos meses de outubro, novembro e dezembro. As larvas se alimentam do sistema radicular das plantas, o que gera falhas nas linhas de plantio.",
+          "texto":"O principal metodo é o uso de inseticidas, mas  pode se realizar outras técnicas que colaboram para o manejo."
+        },
+        {
+          "id": "3",
+          "name": "Lagarta-elasmo",
+          "text": "É uma praga esporádica com grande capacidade de destruição num intervalo curto de tempo. Seus danos estão associados à estiagem logo após a emergência das plantas, o que aumenta o período de susceptibilidade pelo atraso no desenvolvimento da planta e favorece a explosão populacional de lagartas na lavoura. Maiores danos são observados em solos leves e bem drenados, sendo sua incidência menor em sistemas de plantio direto.",
+          "texto":"Em áreas de risco, deve ser usado o tratamento de sementes com inseticidas sistêmicos à base de tiodicarb, carbofuran ou imidacloprid. Em condições de estresse hídrico, a eficiência do tratamento de sementes é reduzida. Nestes casos recomendando-se a aplicação de inseticidas com ação de contato e profundidade como, por exemplo, o clorpirifós"
+        },
+        {
+          "id": "4",
+          "name": "Broca-da-cana-de-açúcar",
+          "text": "Os prejuízos são causados principalmente pelo quebramento das plantas o que pode ser agravado por ventos fortes e plantios muito adensados. Na região Centro-Oeste, as brocas-do-colmo têm sido problema sério em culturas anuais como milho, sorgo e arroz. Quando a infestação é na região do pedúnculo, pode provocar a morte da panícula com perda total das plantas atacadas.",
+          "texto":"O tratamento de sementes (Tabela 1) pode proteger as plantas do ataque da broca-da-cana no início de desenvolvimento, porém em estádios mais desenvolvidos o controle via pulverização, mesmo com inseticidas apresentando bom efeito de profundidade, tem apresentado resultados limitados. Medidas culturais como destruição dos restos culturais após a colheita reduzem significativamente a infestação nos próximos plantios."
+        },
+        {
+          "id": "5",
+          "name": "Pulgão-verde",
+          "text": "Esta praga infesta a Mapira desde a emergência das plantas até a maturação dos grãos. Tanto os adultos como as ninfas sugam seiva das folhas e introduzem toxinas que provocam bronzeamento e morte da área afetada que, dependendo da infestação, podem causar a morte de toda a planta. Os adultos, principalmente as formas aladas, são também importantes vetores de vírus como o do mosaico da cana-de-açúcar capaz de causar danos significativos a Mapira.",
+          "texto":""
+        },
+        {
+          "id": "6",
+          "name": "Lagarta militar",
+          "text": "Os prejuízos são devido à redução da área foliar das plantas e são maiores se a cultura for com o objetivo de produzir silagem. Em anos e/ou locais críticos os insetos podem consumir todo o limbo foliar com perdas totais.",
+          "texto":"Como são lagartas que se alimentam nas folhas abertas, ficam portanto mais expostas do que a lagarta-do-cartucho, tornando-se mais vulneráveis, tanto ao controle natural como às ações artificiais de controle. Além dos lagarticidas normalmente utilizados, esta espécie pode também ser controlada com os produtos a base de Bacillus thuringiensis. Pragas na panícula do sorgo"
+        }
+      ],
+      "Sementes": [
+        {
+          "id": "1",
+          "text": "Após o batimento dos feixes, recolhem-se as sementes e procede-se à sua limpeza, com uma peneira de malha muito fina, agitando-a com movimentos verticais, para que o vento, provocado por ventiladores, retire as impurezas contidas; após o processo de limpeza manual, as sementes de gergelim podem ser imediatamente ensacadas."
+        },
+        {
+          "id": "2",
+          "text": "Embalagem cabe ao produtor a obrigação de acondicionar as sementes em embalagens apropriadas. Normalmente, são utilizados sacos de papel multifolhados, com capacidade para 40 kg de sementes, e devidamente rotulados. Essa embalagem cumpre a função não só de facilitar o manuseio e o transporte das sementes, mas, também, de manter a qualidade delas."
+        },
+        {
+          "id": "3",
+          "text": "O armazenamento tem por finalidade guardar as sementes até a época da semeadura, e manter a sua qualidade. O local escolhido deverá ser apropriado, isto é: seguro, seco, com possibilidades de aeração e com condições para um fácil combate a roedores, a insetos e a microrganismos. Entre os vários fatores que influem na manutenção da qualidade da semente durante o armazenamento, a umidade e a temperatura assumem uma grande importância. O poder germinativo e o vigor das sementes somente serão preservados em locais onde a umidade e a temperatura se mantêm baixas."
+        }
+      ]
+    },
+    { 
+      "id": "5",
+      "name":  "Soja",
+      "principais_Pragas": "5",
+      "time": 65,
+      "cover": "https://www.buala.org/sites/default/files/imagecache/full/2014/07/mdg--land-grab-in-ethiopi-007.jpg",
+      "video":"https://www.youtube.com/watch?v=SkMJpkCizTg",
+      "Principais_Pragas": [
+        {
+          "id": "1",
+          "name":"Lagarta Americana",
+          "text": "Trata-se de uma lagarta polífaga com cerca de 40 mm, de cor muito variável, esverdeada ou acastanhada, com listras claras na lateral.",
+          "texto":"como prevenção recomenda-se inspecções periódicas aos campos na fase de maturação das vagens e ao primeiro sinal de ovos ou lagartas ainda jovens efectuar tratamentos com insecticidas do grupo dos piretroides"
+        },
+        {
+          "id": "2",
+          "name": "Lagarta das folhas",
+          "text": "Ė uma lagarta bastante polífaga com uma coloração muito característica com triângulos negros ao longo do corpo.",
+          "texto":"Tal como a lagarta americana esta praga requer cuidados  adicionais para o seu controle; para além das medidas preventivas idênticas às da lagarta americana, os tratamentos curativos devem ser feitos com os mesmos produtos e com as lagartas ainda jovens."
+        },
+        {
+          "id": "3",
+          "name": "TÉRMITES ",
+          "text": "Estas pragas que vivem no subsolo já foram descritas no boletim anterior como uma das principais pragas da fase vegetativa e do solo. Mas ela ataca todas as fases da cultura, especialmente o caule e as vagens quando estas começam a secar. As plantas atacadas murcham e morrem prematuramente. O ataque torna-se mais violento quando há escassez de humidade no solo. ",
+          "texto":"como medida preventiva é importante a queima de restolhos da cultura anterior, a rotação de culturas e não deixar a cultura pronta a ser colhida muito tempo em campo."
+        },
+        {
+          "id": "4",
+          "name": "Vassoura da Bruxa",
+          "text": "Esta doença transmitida por um micoplasma é importante a sua divulgação devido a sua rápida disseminação pelos campos de soja que temos visitado; os sintomas são caracterizados pelo enrugamento e atrofiamento das plantas e afecta fortemente a fase reprodutiva. ",
+          "texto":"Evitar semear em áreas com historial da doença, usar semente com elevado grau de pureza e eliminar as plantas atacadas. "
+        },
+        {
+          "id": "5",
+          "name": "GORGULHO DE ARMAZÉM",
+          "text": "Trata-se de um coleóptero que perfura o grão de soja, podendo reduzi-lo a pó em caso de ataque severo. ",
+          "texto":"Tratamento do grão  ensacado com cápsulas de Phostoxin e coberto com uma lona; ou aplicação de Actellic em pó."
+        }
+      ],
+      "Sementes": [
+        {
+          "id": "1",
+          "text": "Após a aquisição, as sementes são armazenadas na propriedade, até a época de semeadura. As sementes, como seres vivos, devem receber todos os cuidados necessários para se manterem vivas e apresentarem boas germinação e emergência no campo. Assim sendo, devem ser tomados cuidados especiais no seu armazenamento."
+        },
+        {
+          "id": "2",
+          "text": "A Embalagem cabe ao produtor a obrigação de acondicionar as sementes em embalagens apropriadas. Normalmente, são utilizados sacos de papel multifolhados, com capacidade para 40 kg de sementes, e devidamente rotulados. Essa embalagem cumpre a função não só de facilitar o manuseio e o transporte das sementes, mas, também, de manter a qualidade delas."
+        },
+        {
+          "id": "3",
+          "text": "O armazenamento tem por finalidade guardar as sementes até a época da semeadura, e manter a sua qualidade. O local escolhido deverá ser apropriado, isto é: seguro, seco, com possibilidades de aeração e com condições para um fácil combate a roedores, a insetos e a microrganismos. Entre os vários fatores que influem na manutenção da qualidade da semente durante o armazenamento, a umidade e a temperatura assumem uma grande importância. O poder germinativo e o vigor das sementes somente serão preservados em locais onde a umidade e a temperatura se mantêm baixas."
+        }
+      ]
+    },
+    { 
+      "id": "6",
+      "name":  "Gergelim",
+      "principais_Pragas": "5",
+      "time": 60,
+      "cover": "https://www.embrapa.br/bme_images/m/206160040m.jpg",
+      "video":"https://www.youtube.com/watch?v=L2wEriuOSwo",
+      "Principais_Pragas": [
+        {
+          "id": "1",
+          "name":"Lagarta-enroladeira",
+          "text": "Ė a principal praga da cultura, e exige um controle sistemático em grandes lavouras ou em áreas tradicionais de cultivo. Pode atacar o cultivo do décimo quinto dia de emergência das plântulas até o amadurecimento das cápsulas. No estágio inicial do ataque, ocorre o atrofiamento de ramos e folha.",
+          "texto":"Seu controle é feito por meio da eliminação das ervas daninhas e do uso dos inseticidas deltamethrin ou carbaryl antes da frutificação."
+        },
+        {
+          "id": "2",
+          "name": "Pulgão",
+          "text": "Ocorre em cultivos irrigados. O ataque inicial é feito em reboleiras. Os pulgões formam colônias na face inferior das folhas, que se tornam brilhosas por causa da excreção da “mela”, proveniente da sucção do açúcar, que serve de substrato para o desenvolvimento da fumagina, a qual impede a fotossíntese.",
+          "texto":"Para seu controle, recomenda-se o uso de inseticidas sistêmicos, estritamente necessário para não eliminar a população de inimigos naturais."
+        },
+        {
+          "id": "3",
+          "name": "Mosca-branca",
+          "text": "Tanto o inseto adulto como as ninfas que se estabelecem em colônias na face inferior das folhas causam danos à planta. Altas infestações da praga definham a planta, provocando a “mela”, e também ocasionando o aparecimento da fumagina.",
+          "texto":"Para seu controle, é preciso eliminar as plantas daninhas, fazer barreiras com milho ou sorgo forrageiro e usar inseticidas para adultos e ninfas, com detergentes neutros (160 mL/20 L de água)."
+        },
+        {
+          "id": "4",
+          "name": "Cigarrinha-verde",
+          "text": "Ao sugar a seiva, esse inseto inocula na planta uma toxina que compromete o desenvolvimento e a produção da planta. As plantas atacadas apresentam folhas de coloração verde-amarelado, com bordas enroladas para baixo, e ramos tenros e estiolados.",
+          "texto":"O controle químico é feito por meio de inseticidas sistêmicos à base de demeton-metílico, thiometon ou pirimicarb."
+        },
+        {
+          "id": "5",
+          "name": "Saúva",
+          "text": "Corta folhas e ramos tenros, podendo destruir completamente as plantas na sua fase inicial de desenvolvimento.",
+          "texto":"O controle químico por meio de iscas tóxicas granuladas é muito utilizado, mas deve ser evitado em dias chuvosos e em solos úmidos."
+        }
+      ],
+      "Sementes": [
+        {
+          "id": "1",
+          "text": "O tratamento de sementes de gergelim é pouco praticado e, quando é realizado, é feito logo após a classificação, utilizando-se os seguintes fungicidas: Captan, Thiram, Quintozenel, etc. O seu objetivo é eliminar os agentes patogênicos internos e externos, nas sementes, e proteger estas e as plântulas contra insetos e ataques de patógenos do solo, especialmente quando ocorrem condições de baixa temperatura e de umidade elevada durante a época de semeadura."
+        },
+        {
+          "id": "2",
+          "text": "A Embalagem cabe ao produtor a obrigação de acondicionar as sementes em embalagens apropriadas. Normalmente, são utilizados sacos de papel multifolhados, com capacidade para 40 kg de sementes, e devidamente rotulados. Essa embalagem cumpre a função não só de facilitar o manuseio e o transporte das sementes, mas, também, de manter a qualidade delas."
+        },
+        {
+          "id": "3",
+          "text": "O armazenamento tem por finalidade guardar as sementes até a época da semeadura, e manter a sua qualidade. O local escolhido deverá ser apropriado, isto é: seguro, seco, com possibilidades de aeração e com condições para um fácil combate a roedores, a insetos e a microrganismos. Entre os vários fatores que influem na manutenção da qualidade da semente durante o armazenamento, a umidade e a temperatura assumem uma grande importância. O poder germinativo e o vigor das sementes somente serão preservados em locais onde a umidade e a temperatura se mantêm baixas."
+        }
+      
+      ]
+    }
+  ]
 }
